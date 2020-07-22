@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Home = () => {
+const Cart = () => {
     return (
         <div className="container">
             <h4 className="center">Cart</h4>
@@ -17,9 +17,12 @@ const Home = () => {
                     </td>
                     <td>del.</td>
                 </tr>
+                <div className = "item collection">
+                    
+                </div>
             </table>
         </div>
     )
 }
 
-export default Home
+export default Cart
